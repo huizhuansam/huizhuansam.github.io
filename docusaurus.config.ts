@@ -74,14 +74,19 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        // {
-        //   to: '/about-me',
-        //   label: 'About Me',
-        //   position: 'left',
-        // },
         {
-          to: '/curriculum-vitae',
-          label: 'Curriculum Vitae',
+          to: '/about-me',
+          label: 'About Me',
+          position: 'left',
+        },
+        {
+          to: '/experience',
+          label: 'Experience',
+          position: 'left',
+        },
+        {
+          to: '/education',
+          label: 'Education',
           position: 'left',
         },
         {
