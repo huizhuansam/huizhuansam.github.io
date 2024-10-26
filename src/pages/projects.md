@@ -15,7 +15,7 @@ Some software and software-adjacent projects I've done, along with the lessons I
 
 **Lessons Learnt:**
 
-1. In software engineering, perfect isn't good enough.
+1. Don't obsess over perfect code.
 
 **Technologies Used:**
 
@@ -150,7 +150,7 @@ As the project leader, I guided the team to deliver features on time, establishe
 <details>
 <summary>Howdey</summary>
 
-**Description:** Entry for NUS Hacker's 2022 Hack&Roll 24-hour Hackathon. A mobile application that sends push notifications containing arbitrary messages, a tool for friendly annoyance.
+**Description:** Entry for NUS Hackers' 2022 Hack&Roll 24-hour Hackathon. A mobile application that sends push notifications containing arbitrary messages, a tool for friendly annoyance.
 
 **My Role:** Mobile developer (for an hour, until I realized my laptop can't run Android device emulations without overheating and killing itself), demo slide deck designer, application tester.
 
