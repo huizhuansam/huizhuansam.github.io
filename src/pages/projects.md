@@ -69,8 +69,6 @@ As the project leader, I guided the team to deliver features on time, establishe
 
 **Status:** Completed
 
-**Read the paper [here](www.google.com)**
-
 </details>
 
 <details>
@@ -103,8 +101,6 @@ As the project leader, I guided the team to deliver features on time, establishe
 
 **Status:** Completed
 
-**Read the report [here](www.google.com)**
-
 </details>
 
 <details>
@@ -115,8 +111,6 @@ As the project leader, I guided the team to deliver features on time, establishe
 **My Role:** Performed data cleaning, preparation, and pre-training analysis on time series data using Fast Fourier Transform (FFT). Used linear models for baseline performance benchmarking to evaluate and compare more complex models.
 
 **Status:** Completed and archived
-
-**Read the slide deck [here](www.google.com)**
 
 </details>
 
