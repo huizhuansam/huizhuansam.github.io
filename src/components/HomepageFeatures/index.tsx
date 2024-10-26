@@ -37,9 +37,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Currently based in Kuala Lumpur, Malaysia 🇲🇾 
-        <br/> 
-        Looking for tech opportunities in Singapore 🇸🇬 
-        <br/>
+        Looking for tech opportunities in Singapore 🇸🇬
         Reach me via my social links below 👇 
       </>
     ),
