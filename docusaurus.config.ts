@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hui Zhuan\'s Personal Site',
+  tagline: '☝️🤓 software engineer | ⛰️🤿 outdoor adventurer | 🥁🎸 music lover',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,70 +68,73 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'huizhuansam.github.io',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
+        // {
+        //   to: '/about-me',
+        //   label: 'About Me',
+        //   position: 'left',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/curriculum-vitae',
+          label: 'Curriculum Vitae',
           position: 'left',
-          label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: '/projects',
+          label: 'Projects',
+          position: 'left',
         },
+        // {
+        //   to: '/blog', 
+        //   label: 'Blog', 
+        //   position: 'left'
+        // },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Connect With Me',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/hui-zhuan-siew',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/huizhuansam',
+            },
+            {
+              label: 'NUS TalentConnect',
+              href: 'https://nus-csm.symplicity.com/profiles/huizhuan.siew',
             },
           ],
         },
+        {
+          title: 'Find Me',
+          items: [
+            {
+              label: 'Spotify',
+              href: 'https://open.spotify.com/user/1283716500?si=s3MggnmBRo-PnYanme7JDA',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://youtube.com/@huizhuansheds',
+            },
+            {
+              label: 'LeetCode',
+              href: 'https://leetcode.com/u/huizhuansam/',
+            }
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Siew Hui Zhuan. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
