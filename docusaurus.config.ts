@@ -94,11 +94,11 @@ const config: Config = {
           label: 'Projects',
           position: 'left',
         },
-        // {
-        //   to: '/blog', 
-        //   label: 'Blog', 
-        //   position: 'left'
-        // },
+        {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'right'
+        },
       ],
     },
     footer: {
