@@ -14,7 +14,7 @@ My name is Siew Hui Zhuan, and I usually go by my given name Hui Zhuan (pronunci
 >
 > – Jian Yang, _Silicon Valley_
 
-I can tolerate mispronuciations as long as you don't make fun of it, or else I will tell my dad.
+I don't mind if you mispronounce it, as long as you're not making fun of it—otherwise, I'll have to tell my dad.
 
 You can find traces of me on some social media platforms. I won't accept follow requests unless I personally know you. However, you are welcome to introduce yourself in my DMs if you really want to be my friend (why?).
 
