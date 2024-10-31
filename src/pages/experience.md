@@ -24,6 +24,7 @@ Due to strict NDAs, I’ll keep further details about this experience intentiona
 - Spring Boot
 - Git
 - GitHub
+- Spoken and written Chinese
 
 ---
 

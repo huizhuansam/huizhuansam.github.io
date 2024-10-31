@@ -32,13 +32,14 @@ Some software and software-adjacent projects I've done, along with the lessons I
 <details>
 <summary>[Static Program Analyzer](https://github.com/huizhuansam/CS3203-SPA)</summary>
 
-**Description:** Coursework for [CS3203: Software Engineering Project](https://nusmods.com/courses/CS3203/software-engineering-project). In this project, a team of 6 software engineers are tasked to write a static analyzer for a fictional programming language called [SIMPLE](https://nus-cs3203.github.io/course-website/contents/basic-spa-requirements/simple-programming.html).
+**Description:** Coursework for [CS3203: Software Engineering Project](https://nusmods.com/courses/CS3203/software-engineering-project). In this project, a team of 6 software engineers are tasked to write a static analyzer for a fictional programming language called [SIMPLE](https://nus-cs3203.github.io/course-website/contents/basic-spa-requirements/simple-programming.html). The project's implementation language must be in C++ or Java.
 
 **My Role:** I co-designed and developed the Source Processor library, and took the initiative to manage the build toolchain with CMake. To improve developer experience and code quality, I:
 
 - Configured clang-format to enforce a consistent code style.
-- Tuned compiler settings for Clang on macOS and MSVC on Windows to maximize optimization and enable strict compile-time checks to catch potential bugs early.
-- Set up GitHub Actions workflows to automatically validate code quality before release.
+- Set up GitHub Actions continuous integration workflows to automatically validate code quality before release.
+- Tuned compiler settings for Clang on macOS and MSVC on Windows for optimum, high-performance production builds, and enable strict compile-time checks to catch potential memory bugs early.
+- Improved our project build duration by 10%, shaving 30 seconds off by caching and parallalising jobs.
 
 As the project leader, I guided the team to deliver features on time, established effective development workflows, and led SCRUM rituals, including biweekly sprint planning and twice-weekly standups.
 
@@ -49,7 +50,13 @@ As the project leader, I guided the team to deliver features on time, establishe
 1. For projects of this size and scope, SCRUM felt like a waste of time and energy. I’m not saying it’s unimportant—it probably works better when the requirements are vague, like in real-world software engineering. But in our case, most of the biweekly sprints were spent managing GitHub Issues (which tracked contributions for grading) and writing the project report—tasks that could have easily been done asynchronously.
 2. (Not) C++. I now understand how OOP works in C++, along with smart, dumb, silly, and zany pointers (yes, all of them), plus the whole ordeal with file headers. However, this project just didn’t need most of the language's powerful features—and honestly, it felt like overkill given how cumbersome C++ can be.
 3. The study of programming languages is very interesting. I wished I had another semester in school to learn more about how compilers work, because Clang is basically black magic to me.
-4. Team synergy > individual skill.
+4. Team synergy > individual skill. We had each others' backs when our project's progress went south.
+
+**Achievements:**
+
+- Final grade: A
+- 0 memory leaks
+- Unverified sources reported that my team built the cohort-wide fastest Source Processor library
 
 **Technologies Used:**
 
@@ -57,6 +64,7 @@ As the project leader, I guided the team to deliver features on time, establishe
 - CMake
 - Catch2
 - GitHub Actions
+- leaks (macOS memory leak detection tool)
 
 </details>
 
@@ -74,18 +82,25 @@ As the project leader, I guided the team to deliver features on time, establishe
 <details>
 <summary>[Peer Prep](https://github.com/CS3219-AY2324S1/ay2324s1-course-assessment-g51)</summary>
 
-**Description:** Team Project component for [CS3219: Software Engineering Principles and Patterns](https://nusmods.com/courses/CS3219/software-engineering-principles-and-patterns)
+**Description:** Team Project component for [CS3219: Software Engineering Principles and Patterns](https://nusmods.com/courses/CS3219/software-engineering-principles-and-patterns). In this project, a team of 5 software engineers build a collaborative technical interview practice platform called Peer Prep (or better understood as multiplayer Leetcode). The project has no restrictions on the choice of technology stack.
 
-**My Role:** Backend software engineer
+**My Role:** As the team's backend software engineer, I designed, built, and wrote unit and integration tests for the question bank service and user matching service. I supported the team's gitops by transferring knowledge on git techniques and best practices, and actively participated in code and application design reviews.
 
 **Status:** Completed and archived (no one wanted to pay the cloud bills)
 
+**Achievements:**
+
+- Learnt RabbitMQ, Socket.io, and Prisma ORM, and implemented the backend service for user matching, all within 3 days
+
 **Technologies Used:**
 
+- TypeScript
 - Node.js
 - Express.js
 - MongoDB
+- Mongoose
 - PostgreSQL
+- Prisma
 - RabbitMQ
 - Socket.io
 - Docker
@@ -99,7 +114,7 @@ As the project leader, I guided the team to deliver features on time, establishe
 
 **My Role:** Performed data cleaning, preparation, and feature engineering using edge detection filters.
 
-**Status:** Completed
+**Status:** Completed and archived
 
 </details>
 
@@ -130,9 +145,13 @@ As the project leader, I guided the team to deliver features on time, establishe
 
 **Description:** Entry for 2022 Huawei Cloud SPARK Hackathon. A mobile application for short-form educative video content.
 
-**My Role:** UI/UX developer
+**My Role:** UI/UX developer, pitch deck designer and copywriter.
 
 **Status:** Completed and archived
+
+**Achievements:**
+
+- Semifinalist (top 25)
 
 **Technologies Used:**
 
@@ -165,11 +184,16 @@ As the project leader, I guided the team to deliver features on time, establishe
 <details>
 <summary>[S.P.A.M.](https://github.com/huizhuansam/tp)</summary>
 
-**Description:** Team Project component for [CS2103T: Software Engineering](https://nusmods.com/courses/CS2103/software-engineering).
+**Description:** Team Project component for [CS2103T: Software Engineering](https://nusmods.com/courses/CS2103/software-engineering). An application to manage marketing leads.
 
-**My Role:** Software engineer, SCRUM master
+**My Role:** Software engineer, SCRUM master.
 
 **Status:** Completed and archived
+
+**Achievements:**
+
+- Final grade: A-
+- Implemented local file encryption and password protection feature.
 
 **Technologies Used:**
 
@@ -200,11 +224,22 @@ As the project leader, I guided the team to deliver features on time, establishe
 <details>
 <summary>[Sponsorr!](https://github.com/huizhuansam/sponsorr-frontend)</summary>
 
-**Description:** Completed as part of [CP2106: Independent Software Development Project](https://orbital.comp.nus.edu.sg/). A sponsor-matching platform for businesses and event organizers.
+**Description:** Completed as part of [CP2106: Independent Software Development Project](https://orbital.comp.nus.edu.sg/). A pair of students propose, develop, iterate, and present a software project over the summer break. My teammate and I created Sponsorr!, a sponsor-matching platform for businesses and event organizers.
 
-**My Role:** Frontend developer, UI/UX designer, tester
+**My Role:** Frontend developer, UI/UX designer, quality assurance.
 
 **Status:** Completed and archived
+
+**Lessons Learnt:**
+
+- I love designing application frontends, but I really don't like programming them.
+- Learning git was a pain at first, but it also became one of my most valuable skills that helped me through my coursework, internship, and currently my full-time job.
+- Being mentored by a friend felt strange ("how is he THIS good at this at my age?"), but it turned out to be a blessing.
+
+**Achievements:**
+
+- Project achievement level: [Artemis (Extreme)](https://credentials.nus.edu.sg/856f4cbc-cf4b-4e72-b6f7-2d225ef9461a)
+- (Trust me bro) A coursemate complimented my UI implementation, saying: "Dude I love your app frontend, it's so clean!"
 
 **Technologies Used:**
 
