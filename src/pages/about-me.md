@@ -20,4 +20,12 @@ You can find traces of me on some social media platforms. I won't accept follow 
 
 ## Why?
 
-Good question. Huh?
+Why did I choose to become a software engineer? The simple answer: my brain loves clear instructions. I have this instinct to break down ambiguous problems into clear steps and processes. Since I was a kid, I've been drawn to flowcharts, assembly instructions for toys, and Ikea furniture setups. And now, I follow cooking tutorials to the gram and degree Celsius (to my mom's dismay).
+
+Here's an example to explain what I mean:
+
+When I was 17, I was put in charge of organizing a boot camp for my Boys' Brigade company. Knowing my limits, I realized that delegating was the only way to make the camp a success. So, I created an airtight, four-page Google Doc with flowcharts and timelines to guide my 12 squad leaders through tasks like collecting camp fees and managing consent forms—all within a week. Thanks to this structured plan, everything ran smoothly, and to this day, I'm proud of what we accomplished that week.
+
+This experience of "programming" my squad leaders to handle specific tasks got me thinking: if I can break down these tasks for people, what else could be programmed? Computers, obviously! Of course, in software engineering, we're dealing with data structures, algorithms, design patterns, things that are much more complex than collecting forms, handling transactions, and sending files to the correct pigeonhole... Hmm, come to think of it...
+
+Ultimately, my path to software engineering is fueled by my mind's desire to think of and write clear instructions for problems that can be followed perfectly by a machine. I strive to derive clarity from ambiguous situations and create steps to solve the problem, and when my solution works - it's oh so satisfying!
