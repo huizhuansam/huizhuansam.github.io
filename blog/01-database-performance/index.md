@@ -4,7 +4,7 @@ tags: [tech]
 date: 2024-12-04T00:00
 ---
 
-During my time as a software engineer at Binance, I was constantly challenged to look beneath abstraction layers in order to understand the behaviour of our software systems. One of the aspects that I have been researching on was database performance. The topic huge on its own, and it is impossible to cover everything within a blog post, so I narrowed down the content to focus on database and system design, which I think gives us a more approachable angle to understand why and how databases perform differently.
+During my time as a software engineer at Binance, I was constantly challenged to look beneath abstraction layers in order to understand the behaviour of our software systems. One of the aspects that I have been researching on was database performance. The topic is huge on its own, and it is impossible to cover everything within a blog post, so I narrowed down the content to focus on database and system design, which I think gives us a more approachable angle to understand why and how databases perform differently.
 
 <!-- truncate -->
 
