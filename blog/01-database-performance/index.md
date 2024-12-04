@@ -10,7 +10,7 @@ During my time as a software engineer at Binance, I was constantly challenged to
 
 ## Indexing
 
-Database indexes improve the performance of database retrievals by trading off space complexity and write speeds. A separate data structure, such as a B+ tree or Hash Index, storeadditional information about the location of data points inside the table. The information helps the query engine quickly locate the position of the data in-memory or on-disk without searchingthrough every record in the table, avoiding an undesirable operation as it has linear time complexity. This additional data structure incurs extra memory cost, as well as reduce write speeds because of the extra data that needs to be managed. Therefore, indexes should be chosen carefully as it will incur additional and sometimes unintentional performance costs to other operations.
+Database indexes improve the performance of database retrievals by trading off space complexity and write speeds. A separate data structure, such as a B+ tree or Hash Index, store additional information about the location of data points inside the table. The information helps the query engine quickly locate the position of the data in-memory or on-disk without searching through every record in the table, avoiding an undesirable operation as it has linear time complexity. This additional data structure incurs extra memory cost, as well as reduce write speeds because of the extra data that needs to be managed. Therefore, indexes should be chosen carefully as it will incur additional and sometimes unintentional performance costs to other operations.
 
 Some indexes may be implicitly defined on the table definition itself, for example, columns defined as PRIMARY KEY.
 
